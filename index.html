@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@1,200&display=swap" rel="stylesheet">
+    <title>Encritador</title>
+</head>
+<body>
+
+    <header>
+        <img src="Imagenes/Logo.png" alt="LogoAlura" class="logo">
+    </header>
+
+
+    <main>
+        <section>
+            <textarea placeholder="Ingrese el texto aqui" class="text-area"  cols="30" rows="10"></textarea>
+
+            <div>
+                <h6 class="informacion">Solo letras minúsculas y sin acentos	
+                    &#128064;	
+                    &#128064;	
+                    &#128064;</h6>
+            </div>
+
+            <div class="botones">
+                <button class="btn-encritar" onclick="btnEncritar()">Encritador</button>
+                <button class="btn-desencritar" onclick="btnDesencritar()">Desencritar</button>
+            </div>
+
+        </section>
+
+    
+        <section>
+            
+            <textarea class="mensajes" cols="20" rows="10"></textarea>  
+            <div>
+                <button class="btn-copiar" onclick="copiarTexto()">Copiar</button>
+            </div>
+    
+        </section>
+
+        
+    </main>
+    <script src="script.js"></script>
+</body>
+</html>
