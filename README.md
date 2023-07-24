@@ -10,4 +10,4 @@ Un botón para desencriptar
 Área para mostrar el texto encriptado/desencriptado.
 
 # Apariencia
-[Encritador](Imagenes/Proyecto2.png)
+[Encritador](https://ibb.co/cQk6bv0)
